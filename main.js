@@ -4,17 +4,9 @@ var bike={
     fuelcapacity:"13",
     mileage:"45",
     vehiclecc:"149",
-
-
-    avg:function(){
-     var avg=(this.model+this.fueltype+this.fuelcapacity+this.mileage+this.vehiclecc);
-     
-     return avg;
-    }
     
 }
-var a=bike.avg();
-console.log(bike.avg());
+console.log(bike);
 
 
 // car //
@@ -24,16 +16,9 @@ var car={
     fuelcapacity:"45",
     mileage:"18kmpl",
     colour:"brown",
-
-    avg:function(){
-        var avg=(this.model+this.fueltype+this.fuelcapacity+this.mileage+this.colour);
-        
-        return avg;
-       }
-
 }
-var a=car.avg();
-console.log(car.avg());
+
+console.log(car);
 
 // laptop//
 
@@ -44,15 +29,9 @@ var laptop={
     price:"23000",
     colour:"ashgrey",
 
-    avg:function(){
-        var avg=(this.model+this.Ram+this.harddisk+this.price+this.colour);
-        
-        return avg;
-       }
-
 }
-var a=laptop.avg();
-console.log(laptop.avg());
+
+console.log(laptop);
 
 //swiggy//
 
@@ -63,15 +42,9 @@ var swiggy={
     employeescount:"100000",
     feedback:"quickdelivery",
 
-    avg:function(){
-        var avg=(this.names+this.delivery+this.service+this.employeescount+this.feedback);
-        
-        return avg;
-       }
-
 }
-var a=swiggy.avg();
-console.log(swiggy.avg());
+
+console.log(swiggy);
 
 // pet shop//
 
@@ -82,15 +55,9 @@ var petshop={
     food:"100",
     colour:"multiple",
 
-    avg:function(){
-        var avg=(this.fish+this.bird+this.dog+this.food+this.colour);
-        
-        return avg;
-       }
-
 }
-var a=petshop.avg();
-console.log(petshop.avg());
+
+console.log(petshop);
 
 // school friends //
 
@@ -102,15 +69,9 @@ var names={
     name5:"sabaree",
 
 
-    avg:function(){
-        var avg=(this.name1+this.name2+this.name3+this.name4+this.name5);
-        
-        return avg;
-       }
-
 }
-var a=names.avg();
-console.log(names.avg());
+
+console.log(names);
 
 // marks //
 
@@ -122,15 +83,9 @@ var marks={
     mark5:89,
 
 
-    avg:function(){
-        var avg=(this.mark1+this.mark2+this.mark3+this.mark4+this.mark5)/5;
-        
-        return avg;
-       }
-
 }
-var a=marks.avg();
-console.log(marks.avg());
+
+console.log(marks);
 
 // train //
 var train={
@@ -141,15 +96,9 @@ var train={
     stop:"station to station",
 
 
-    avg:function(){
-        var avg=(this.propertyowner+this.fueltype+this.goingmethod+this.seattype+this.stop);
-        
-        return avg;
-       }
-
 }
-var a=train.avg();
-console.log(train.avg());
+
+console.log(train);
 
 // fish //
 
@@ -158,18 +107,11 @@ var fish={
     weight:"300kg",
     colour:"ash",
     feeding:"small fish",
-    rate:"lakhs",
-
-
-    avg:function(){
-        var avg=(this.fishname+this.weight+this.colour+this.feeding+this.rate);
-        
-        return avg;
-       }
+    rate:"80000",
 
 }
-var a=fish.avg();
-console.log(fish.avg());
+
+console.log(fish);
 
 // royal enfield //
 
@@ -181,15 +123,9 @@ var royalenfield={
     colour:"black",
 
 
-    avg:function(){
-        var avg=(this.model+this.cc+this.weight+this.rate+this.colour);
-        
-        return avg;
-       }
-
 }
-var a=royalenfield.avg();
-console.log(royalenfield.avg());
+
+console.log(royalenfield);
 
 // phone//
 
@@ -200,13 +136,260 @@ var phone={
     battery:"5000mah",
 	simslot:"dual",
     colour:"sky blue",
+  
+}
+
+console.log(phone);
+
+// tv //
+
+var tv={
+    brand:"micromax",
+    size:"32inch",
+    model:"canvas 5v",
+    numberofspeaker:"2",
+	audioformat:"mp3,AAC",
+	
+	
+}
+  
+console.log(tv);
     
-    avg:function(){
-        var avg=(this.model+this.network+this.camera+this.battery+this.simslot+this.colour);
+// fridge //
+
+var fridge={
+    brand:"LG",
+    doortype:"double door",
+    model:"GL-T402JDS3",
+    capacity:"360l",
+	price:"43990",
+	
+	
+}
+  
+console.log(fridge);
+
+// washing machine//
+
+
+var washingmachine={
+    brand:"LG",
+    doortype:"front",
+    model:"FHM1409BDP",
+    capacity:"9kg",
+	price:"43490",
+	
+	
+}
+  
+console.log(washingmachine);
+
+// wifi router//
+
+var wifirouter={
+    cname:"rainbow",
+    brand:"rainbow",
+    model:"ub54041gvw+",
+    power:"DC 12v 1A",
+	speed:"80mpbs",
+	
+}
+  
+console.log(wifirouter);
+
+//chair//
+var chair={
+    brand:"mango",
+    quality:"best",
+    colour:"multible",
+    capacity:"80kg",
+	price:"500",
+	
+
+}
+  
+console.log(chair);
+
+// laptop bag//
+
+var laptopbag={
+    brand:"hp",
+    quality:"best",
+    model:"hp-03",
+    capacity:"2to3kg",
+	price:"438",
+	
+	
+}
+  
+console.log(laptopbag);
+
+// head phone//
+
+var headphone={
+    brand:"oraimo",
+    mic:"yes",
+    model:"2017",
+    soundcapacity:"20hz",
+	price:"200",
+	
+	
+}
+  
+console.log(headphone);
+
+// home //
+
+var home={
+    constructionyear:"2022",
+    quality:"1st quality",
+    model:"bungala style",
+    roomtype:"3bhk",
+	price:"3999999lakh",
+	
+	
+}
+  
+console.log(home);
+
+// mugesh//
+
+var mugesh={
+    name:"mugesh",
+    qualification:"BE-Civil",
+    age:"23",
+    gender:"male",
+	heightandweight:"172&85kg",
+	
+	
+}
+  
+console.log(mugesh);
+
+// famillydetail//
+
+var familydetail={
+    myself:"mugeshkumar",
+    father:"karuppasamy",
+    mother:"muthukutti",
+    brother:"manojkumar",
+	place:"anaikulam",
+	
+	
+}
+  
+console.log(familydetail);
+
+//things for home//
+
+var thingsforhome={
+    closeup:20,
+    soap:40,
+    masala:100,
+    lentils:100,
+	oil:180,
+	
+	
+	 avg:function(){
+        var avg=(this.closeup+this.soap+this.masala+this.lentils+this.oil)/5;
         
         return avg;
        }
-
 }
-var a=phone.avg();
-console.log(phone.avg());
+   var a=thingsforhome.avg();
+console.log(thingsforhome.avg());
+
+// playstation//
+
+var playstation={
+    brand:"sony electronics",
+    introducedate:"3dec 1994",
+    memory:"2mp RAM ",
+    generation:"5th",
+	discontinue:"march 6 2006",
+}
+console.log(playstation);
+
+
+//social networks//
+
+var socialmedia={
+    n1:"facebook",
+    n2:"instagram",
+    n3:"whatsapp",
+    n4:"twitter",
+	n5:"youtube",
+}
+console.log(socialmedia);	
+	
+	
+//purchase data//
+
+var purchasedata={
+    app1:"flipkart",
+    app2:"meesho",
+    app3:"amazon",
+    app4:"v2kart",
+	app5:"vmart",
+}
+console.log(purchasedata);
+	
+	
+// foodiee//
+
+var foodapp={
+    food1:"swiggy",
+    food2:"zomatto",
+    food3:"kfc",
+    food4:"dominoz",
+	food5:"bvk",
+}
+console.log(foodapp);
+
+
+// note//
+
+var note={
+    brand:"micro",
+    introducedate:"4 jan 2007",
+    pages:"198",
+    price:"30",
+	papercolour:"white",
+}
+console.log(note);
+
+
+// bluetooth speaker//
+
+var speaker={
+    brand:"sony",
+    introducedate:"3dec2017",
+    connectivity:"bluetooth",
+    features:"automative",
+	price:"2228",
+}
+console.log(speaker);
+
+
+// facebook//
+
+var facebook={
+    founder:"mark zuckerberg",
+    ceo:"mark zuckerberg",
+    user:"2.94billion",
+    written:"c++,hack",
+	networth:"430billion",
+}
+console.log(facebook);
+
+
+// front end//
+
+var frontend={
+    markup:"html",
+    style:"css",
+    program:"java script",
+    framework:"react js",
+	collaporate:"Git",
+}
+console.log(frontend);
