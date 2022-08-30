@@ -190,3 +190,23 @@ var royalenfield={
 }
 var a=royalenfield.avg();
 console.log(royalenfield.avg());
+
+// phone//
+
+var phone={
+    model:"vivo y11",
+    network:"4G LTE",
+    camera:"dual camera",
+    battery:"5000mah",
+	simslot:"dual",
+    colour:"sky blue",
+    
+    avg:function(){
+        var avg=(this.model+this.network+this.camera+this.battery+this.simslot+this.colour);
+        
+        return avg;
+       }
+
+}
+var a=phone.avg();
+console.log(phone.avg());
